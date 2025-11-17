@@ -21,56 +21,56 @@ The project demonstrates real-world backend development using modular design, au
 
 ### Admin Features
 
-    Login & authentication
+ -   Login & authentication
 
-    Register Admin / Officer
+ -  Register Admin / Officer
 
-    Add / View / Delete:
+ -   Add / View / Delete:
  
-    Crimes
+  -  Crimes
 
-    Victims
+  -  Victims
  
-    Criminals
+  -  Criminals
 
-    FIRs
+  -  FIRs
 
  ### Officer Features
 
-    Login
+  -  Login
 
-    View Crimes, Victims, Criminals
+  -  View Crimes, Victims, Criminals
 
-    File FIR
+  -  File FIR
 
-    View all FIRs
+  -  View all FIRs
 
 
 ### System Features
 
-    Hibernate ORM for DB operations
+  -  Hibernate ORM for DB operations
 
-    MySQL relational schema
+  - MySQL relational schema
 
-    Log4j logging
+  -  Log4j logging
 
-    Automatic sample data insertion
+  -  Automatic sample data insertion
 
 
 ---
 ## Technologies Used
 
-    Java 8
+  *  Java 8
 
-    Hibernate 5.6 (ORM)
+  *  Hibernate 5.6 (ORM)
 
-    MySQL 8.0
+   * MySQL 8.0
 
-    Maven (Build Tool)
+  *  Maven (Build Tool)
 
-    Eclipse / IntelliJ IDEA
+  *  Eclipse / IntelliJ IDEA
 
-    Log4j
+  *  Log4j
 
 
 
@@ -78,24 +78,24 @@ The project demonstrates real-world backend development using modular design, au
 
 ## Database Tables
 
-    users
+   * users
 
-    crimes
+   * crimes
 
-    victims
+   * victims
 
-    criminals
+   * criminals
 
-    firs
+  *  firs
 
 
 ### Each FIR links:
 
-    Crime
+   * Crime
 
-    Victim
+   * Victim
 
-    Criminal
+   * Criminal
 
 ---
 ## Sample Output
@@ -116,11 +116,11 @@ Password: admin123
 
 User → Controller → Service → DAO → Hibernate ORM → MySQL
 
-    Controllers handle input
-    Services apply business logic
-    DAO handles DB
-    Hibernate maps objects to tables
-    MySQL stores data
+   1. Controllers handle input
+   2. Services apply business logic
+   3. DAO handles DB
+   4. Hibernate maps objects to tables
+   5. MySQL stores data
 
 ---
 
@@ -150,7 +150,9 @@ File FIR linked to victim, crime & criminal
 
 ---
 ## ER Diagram
-<img width="614" height="569" alt="image" src="https://github.com/user-attachments/assets/0891076e-5028-4041-841e-ddcfbfe0df24" />
+
+<img width="596" height="499" alt="image" src="https://github.com/user-attachments/assets/966abe8b-2582-4184-83a7-2e2e17cb17e9" />
+
 
 
 ---
@@ -158,17 +160,17 @@ File FIR linked to victim, crime & criminal
 
 ## Future Enhancements
 
- Convert to Spring Boot Web App
+- Convert to Spring Boot Web App
 
- Add JWT authentication
+- Add JWT authentication
 
- Search & filter module
+- Search & filter module
 
- Generate PDF reports
+- Generate PDF reports
 
- Add station-specific admin roles
+- Add station-specific admin roles
 
- Cloud storage integration
+- Cloud storage integration
 
 
 
