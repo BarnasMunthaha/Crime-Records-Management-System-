@@ -149,20 +149,26 @@ File FIR linked to victim, crime & criminal
 
 
 ---
+## ER Diagram
+<img width="614" height="569" alt="image" src="https://github.com/user-attachments/assets/0891076e-5028-4041-841e-ddcfbfe0df24" />
+
+
+---
+
 
 ## Future Enhancements
 
-Convert to Spring Boot Web App
+ Convert to Spring Boot Web App
 
-Add JWT authentication
+ Add JWT authentication
 
-Search & filter module
+ Search & filter module
 
-Generate PDF reports
+ Generate PDF reports
 
-Add station-specific admin roles
+ Add station-specific admin roles
 
-Cloud storage integration
+ Cloud storage integration
 
 
 
