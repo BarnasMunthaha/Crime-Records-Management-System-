@@ -1,13 +1,13 @@
-Crime Records Management System
+#Crime Records Management System
 
-Java | Hibernate | MySQL | Maven
+#####Java | Hibernate | MySQL | Maven
 
 A backend-driven console application for managing crime records, FIRs, victims, and criminal data using Hibernate ORM and MySQL. Built with clean layered architecture (Model → DAO → Service → Controller).
 
 
 ---
 
-Overview
+##Overview
 
 The Crime Records Management System (CRMS) digitizes crime record management by enabling Admins and Officers to securely manage crimes, victims, criminals, and FIRs.
 Hibernate ORM handles object–relational mapping, while MySQL ensures reliable data storage.
@@ -17,116 +17,88 @@ The project demonstrates real-world backend development using modular design, au
 
 ---
 
- Features
+ ##Features
 
-Admin Features
+### Admin Features
 
-Login & authentication
+    Login & authentication
 
-Register Admin / Officer
+    Register Admin / Officer
 
-Add / View / Delete:
+    Add / View / Delete:
+ 
+    Crimes
 
-Crimes
+    Victims
+ 
+    Criminals
 
-Victims
+    FIRs
 
-Criminals
+ ###Officer Features
 
-FIRs
+    Login
 
+    View Crimes, Victims, Criminals
 
+    File FIR
 
- Officer Features
-
-Login
-
-View Crimes, Victims, Criminals
-
-File FIR
-
-View all FIRs
+    View all FIRs
 
 
- System Features
+### System Features
 
-Hibernate ORM for DB operations
+    Hibernate ORM for DB operations
 
-MySQL relational schema
+    MySQL relational schema
 
-Log4j logging
+    Log4j logging
 
-Automatic sample data insertion
-
-Clean MVC layered structure
-Project Structure
-
-CrimeRecordsManagementSystem/
-│
-├── pom.xml
-├── README.md
-│
-├── src/main/java/
-│   ├── controller/
-│   │   ├── MainApp.java
-│   │   ├── AdminController.java
-│   │   └── OfficerController.java
-│   ├── service/
-│   ├── dao/
-│   ├── model/
-│   └── util/
-│
-└── src/main/resources/
-    ├── hibernate.cfg.xml
-    └── log4j.properties
-
-database/
-├── crime_db.sql
-└── sample_data.sql
+    Automatic sample data insertion
 
 
 ---
-Technologies Used
+##Technologies Used
 
-Java 8
+    Java 8
 
-Hibernate 5.6 (ORM)
+    Hibernate 5.6 (ORM)
 
-MySQL 8.0
+    MySQL 8.0
 
-Maven (Build Tool)
+    Maven (Build Tool)
 
-Eclipse / IntelliJ IDEA
+    Eclipse / IntelliJ IDEA
 
-Log4j
+    Log4j
 
 
 
 ---
 
-🗄️ Database Tables
+##Database Tables
 
-users
+    users
 
-crimes
+    crimes
 
-victims
+    victims
 
-criminals
+    criminals
 
-firs
-
-
-Each FIR links:
-
-Crime
-
-Victim
-
-Criminal
+    firs
 
 
-Sample Output
+###Each FIR links:
+
+    Crime
+
+    Victim
+
+    Criminal
+
+---
+##Sample Output
 
 === Crime Records Management System ===
 1. Login
@@ -140,19 +112,19 @@ Password: admin123
 
 ---
 
-Project Flow
+##Project Flow
 
 User → Controller → Service → DAO → Hibernate ORM → MySQL
 
-Controllers handle input
-Services apply business logic
-DAO handles DB
-Hibernate maps objects to tables
-MySQL stores data
+    Controllers handle input
+    Services apply business logic
+    DAO handles DB
+    Hibernate maps objects to tables
+    MySQL stores data
 
 ---
 
- Modules Summary
+ ##Modules Summary
 
 🔹 User Module
 
@@ -178,7 +150,7 @@ File FIR linked to victim, crime & criminal
 
 ---
 
-Future Enhancements
+##Future Enhancements
 
 Convert to Spring Boot Web App
 
