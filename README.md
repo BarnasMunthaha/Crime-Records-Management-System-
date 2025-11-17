@@ -1,13 +1,13 @@
 # Crime Records Management System
 
-#####Java | Hibernate | MySQL | Maven
+##### Java | Hibernate | MySQL | Maven
 
 A backend-driven console application for managing crime records, FIRs, victims, and criminal data using Hibernate ORM and MySQL. Built with clean layered architecture (Model → DAO → Service → Controller).
 
 
 ---
 
-##Overview
+## Overview
 
 The Crime Records Management System (CRMS) digitizes crime record management by enabling Admins and Officers to securely manage crimes, victims, criminals, and FIRs.
 Hibernate ORM handles object–relational mapping, while MySQL ensures reliable data storage.
@@ -17,7 +17,7 @@ The project demonstrates real-world backend development using modular design, au
 
 ---
 
- ##Features
+ ## Features
 
 ### Admin Features
 
@@ -35,7 +35,7 @@ The project demonstrates real-world backend development using modular design, au
 
     FIRs
 
- ###Officer Features
+ ### Officer Features
 
     Login
 
@@ -58,7 +58,7 @@ The project demonstrates real-world backend development using modular design, au
 
 
 ---
-##Technologies Used
+## Technologies Used
 
     Java 8
 
@@ -76,7 +76,7 @@ The project demonstrates real-world backend development using modular design, au
 
 ---
 
-##Database Tables
+## Database Tables
 
     users
 
@@ -89,7 +89,7 @@ The project demonstrates real-world backend development using modular design, au
     firs
 
 
-###Each FIR links:
+### Each FIR links:
 
     Crime
 
@@ -98,7 +98,7 @@ The project demonstrates real-world backend development using modular design, au
     Criminal
 
 ---
-##Sample Output
+## Sample Output
 
 === Crime Records Management System ===
 1. Login
@@ -112,7 +112,7 @@ Password: admin123
 
 ---
 
-##Project Flow
+## Project Flow
 
 User → Controller → Service → DAO → Hibernate ORM → MySQL
 
@@ -124,7 +124,7 @@ User → Controller → Service → DAO → Hibernate ORM → MySQL
 
 ---
 
- ##Modules Summary
+ ## Modules Summary
 
 🔹 User Module
 
@@ -150,7 +150,7 @@ File FIR linked to victim, crime & criminal
 
 ---
 
-##Future Enhancements
+## Future Enhancements
 
 Convert to Spring Boot Web App
 
